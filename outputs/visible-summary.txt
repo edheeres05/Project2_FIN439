@@ -12,4 +12,4 @@ Maximum estimated Sharpe | 12.24% | 14.18% | 0.555 | 25.00% | PASS
   VOO 50%, SOXX 15%, SCHD 10%, BIL 10%, BND 15%
 PILOT: paper trading only; 0% live capital
 Research-only; the chronological diagnostic is not a true holdout.
-Independent human precommit/cold run/recordings not generated.
+See docs/validation-and-ai-use.md for changed-input and reproducibility evidence.
