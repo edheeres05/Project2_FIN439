@@ -13,7 +13,7 @@ Edition A/B and research-evolution PDF: not required. Attach the two matching Ma
 | Validation and named AI use | [docs/validation-and-ai-use.md](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/validation-and-ai-use.md); attach matching .md |
 | Locked experiment | [Baseline](https://github.com/edheeres05/Project2_FIN439/commit/4442c05594191d47a292a040d9ef974502b396de), [prediction commit](https://github.com/edheeres05/Project2_FIN439/commit/e6329aea9b34afa81649ae3ba40990d8e068c11f), [ai-off-prediction.md](https://github.com/edheeres05/Project2_FIN439/blob/main/ai-off-prediction.md), [locked-change-result.json](https://github.com/edheeres05/Project2_FIN439/blob/main/locked-change-result.json); see validation for AI assistance and chronology |
 | Student AI-output check | BND source comparison in Section 6 of the validation record |
-| Independent cold run | Not yet completed |
+| Second-machine run / independent cold run | Student reported successful application run on father's computer (November 25); fresh environment, independent user, setup details and test output not yet confirmed. See [validation record](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/validation-and-ai-use.md). |
 | Video 1: Research evolution and AI-output check | Not yet recorded; maximum 3:00 |
 | Transcript 1 | Not yet available |
 | Video 2: Codebase and validation | Not yet recorded; maximum 5:00 |
