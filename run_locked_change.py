@@ -1,13 +1,14 @@
-"""Only execute AFTER a real human AI-off prediction is committed to GitHub.
-Run from a clean clone of the frozen baseline with the later prediction commit.
-This verifies local git order and unchanged model inputs; it cannot prove authorship.
+"""Optional post-experiment reproduction from a clean Git clone.
+This verifies Git order and unchanged calculation inputs, not human authorship.
+The original student UI export in the repository root is preserved separately.
 """
 import argparse,subprocess,json,datetime
 from pathlib import Path
 from engine import review,ROOT,OPTIMIZERS
 
-TRACKED=['engine.py','app.py','data','build_data.py','audit_data.py','requirements.txt','generate_outputs.py','tests','run_locked_change.py']
-PREDICTION='docs/ai-off-prediction.md'
+TRACKED=['engine.py','app.py','data','build_data.py','audit_data.py','requirements.txt','test_engine.py']
+# Reporting and reproduction helpers were updated after the original UI run; the financial engine, inputs and tests remain frozen.
+PREDICTION='ai-off-prediction.md'
 
 def git(*args):
     return subprocess.check_output(['git',*args],cwd=ROOT,text=True,stderr=subprocess.STDOUT).strip()
@@ -32,8 +33,8 @@ def main():
       'baseline_commit':baseline,'baseline_commit_time':git('show','-s','--format=%cI',baseline),
       'prediction_commit':pred,'prediction_commit_time':git('show','-s','--format=%cI',pred),
       'prediction_file':PREDICTION,'execution_utc':now,'original':base,'changed':changed,
-      'note':'Git order and unchanged inputs verified locally. AI-off human authorship and GitHub access require student attestation. Student must explain discrepancy and decision effect after execution.'}
-    out=ROOT/'outputs'/'locked-change-result.json';out.write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
+      'note':'Post-experiment reproduction only. Git order and unchanged calculation inputs verified locally. Original student UI execution evidence remains separate; authorship is not certified.'}
+    out=ROOT/'outputs'/'locked-change-reproduction.json';out.write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
     print('Wrote',out);print('Original:',base['recommendation']);print('Changed:',changed['recommendation'])
     for key,r in [('original',base),('changed',changed)]:
         for x in r['rows']:
