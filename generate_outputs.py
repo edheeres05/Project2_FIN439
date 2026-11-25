@@ -13,6 +13,6 @@ def main():
     for x in r['rows']:
         lines.append(f"{x['portfolio']} | {x['net_estimate']:.2%} | {x['volatility']:.2%} | {x['estimated_sharpe']:.3f} | {x['one_way_turnover']:.2%} | {x['verdict']}")
         if x['portfolio'] in OPTIMIZERS:lines.append('  '+', '.join(f'{t} {w:.0%}' for t,w in x['weights'].items() if w>0))
-    lines.extend([r['recommendation']+'; 0% live capital','Research-only; the chronological diagnostic is not a true holdout.','Independent human precommit/cold run/recordings not generated.'])
+    lines.extend([r['recommendation']+'; 0% live capital','Research-only; the chronological diagnostic is not a true holdout.','See docs/validation-and-ai-use.md for changed-input and reproducibility evidence.'])
     (out/'visible-summary.txt').write_text('\n'.join(lines)+'\n',encoding='utf-8');print('\n'.join(lines))
 if __name__=='__main__':main()
