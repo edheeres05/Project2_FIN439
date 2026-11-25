@@ -26,7 +26,7 @@ Sixty completed monthly total returns (Nov 2021–Oct 2026) from a single provid
 | Minimum volatility | 6.28% | 7.35% | 0.260 | 25% | Pass |
 | Max estimated Sharpe | 12.24% | 14.18% | 0.555 | 25% | Pass |
 
-Minimum volatility: **40% VOO / 35% BIL / 25% BND**. Max estimated Sharpe: **50% VOO / 15% SOXX / 10% SCHD / 10% BIL / 15% BND**. QQQ is eligible but receives zero; no need to force an allocation to each ETF. These are two alternative 100%-invested simulated targets, not real orders or independent weight bands. Both spend the entire turnover budget. The latter adds 5.95 pp expected net return for 6.83 pp additional annual volatility relative to minimum volatility, with just 0.82 pp volatility headroom and 75% equities versus 40%. Its higher estimated Sharpe depends on the historical SOXX arithmetic mean (29.92%), which may not persist.
+Minimum volatility: **40% VOO / 35% BIL / 25% BND**. Max estimated Sharpe: **50% VOO / 15% SOXX / 10% SCHD / 10% BIL / 15% BND**. QQQ is eligible but receives zero; no need to force an allocation to each ETF. These are two alternative 100%-invested simulated targets, not real orders or independent weight bands. Both spend the entire turnover budget. The latter adds 5.95 pp expected net return for 6.83 pp additional annual volatility relative to minimum volatility, with just 0.82 pp volatility headroom and 75% equities versus 40%. Its higher estimated Sharpe depends on SOXX's 29.92% annualized arithmetic mean from the 60 historical monthly total returns. This is a historical-performance-based estimate, not a forecast that SOXX will earn 29.92% every year over the next five years. The sensitivity to this assumption supports paper trading before risking real capital.
 
 ## Challenge and committee action
 
