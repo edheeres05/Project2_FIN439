@@ -1,0 +1,282 @@
+{
+  "monthly_shape": [
+    60,
+    6
+  ],
+  "return_hash": "33294b3122e0990303672b4cca389a1462930a160a214662875bf4361ead4378",
+  "rf": {
+    "series": "DGS3MO",
+    "source": "Board of Governors of the Federal Reserve System (US), via FRED",
+    "url": "https://fred.stlouisfed.org/series/DGS3MO/history",
+    "observation_date": "2026-11-23",
+    "published_at": "2026-11-24T15:16:00-06:00",
+    "retrieved_date": "2026-11-24",
+    "annual_percent": 4.37,
+    "definition": "3-month constant-maturity Treasury yield, investment basis, annualized percent; short-term risk-free proxy, not guaranteed five-year cash return"
+  },
+  "annual_checks": [
+    {
+      "asset": "VOO",
+      "year": 2022,
+      "compounded_monthly_pct": -18.156777745371766,
+      "published_annual_pct": -18.17,
+      "difference_pp": 0.013222254628235675,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "QQQ",
+      "year": 2022,
+      "compounded_monthly_pct": -32.59059785888502,
+      "published_annual_pct": -32.58,
+      "difference_pp": -0.010597858885020628,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "SOXX",
+      "year": 2022,
+      "compounded_monthly_pct": -35.090051886515006,
+      "published_annual_pct": -35.09,
+      "difference_pp": -5.1886515002763645e-05,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "SCHD",
+      "year": 2022,
+      "compounded_monthly_pct": -3.2627682131519453,
+      "published_annual_pct": -3.26,
+      "difference_pp": -0.002768213151945531,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "BIL",
+      "year": 2022,
+      "compounded_monthly_pct": 1.4081079859357803,
+      "published_annual_pct": 1.4,
+      "difference_pp": 0.008107985935780437,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "BND",
+      "year": 2022,
+      "compounded_monthly_pct": -13.106258424369788,
+      "published_annual_pct": -13.11,
+      "difference_pp": 0.003741575630211713,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "VOO",
+      "year": 2023,
+      "compounded_monthly_pct": 26.3264104037342,
+      "published_annual_pct": 26.32,
+      "difference_pp": 0.006410403734200543,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "QQQ",
+      "year": 2023,
+      "compounded_monthly_pct": 54.842779393630714,
+      "published_annual_pct": 54.86,
+      "difference_pp": -0.017220606369285463,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "SOXX",
+      "year": 2023,
+      "compounded_monthly_pct": 67.09561306378579,
+      "published_annual_pct": 67.12,
+      "difference_pp": -0.024386936214213506,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "SCHD",
+      "year": 2023,
+      "compounded_monthly_pct": 4.546424038677044,
+      "published_annual_pct": 4.54,
+      "difference_pp": 0.006424038677043775,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "BIL",
+      "year": 2023,
+      "compounded_monthly_pct": 4.959073681402937,
+      "published_annual_pct": 4.94,
+      "difference_pp": 0.019073681402936415,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "BND",
+      "year": 2023,
+      "compounded_monthly_pct": 5.653286330021268,
+      "published_annual_pct": 5.65,
+      "difference_pp": 0.003286330021267325,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "VOO",
+      "year": 2024,
+      "compounded_monthly_pct": 24.993063521645432,
+      "published_annual_pct": 24.98,
+      "difference_pp": 0.013063521645431564,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "QQQ",
+      "year": 2024,
+      "compounded_monthly_pct": 25.574801802719605,
+      "published_annual_pct": 25.58,
+      "difference_pp": -0.005198197280392947,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "SOXX",
+      "year": 2024,
+      "compounded_monthly_pct": 12.940690777591012,
+      "published_annual_pct": 12.92,
+      "difference_pp": 0.02069077759101212,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "SCHD",
+      "year": 2024,
+      "compounded_monthly_pct": 11.66545117794362,
+      "published_annual_pct": 11.66,
+      "difference_pp": 0.005451177943619712,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "BIL",
+      "year": 2024,
+      "compounded_monthly_pct": 5.1894452799919,
+      "published_annual_pct": 5.19,
+      "difference_pp": -0.0005547200081004178,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "BND",
+      "year": 2024,
+      "compounded_monthly_pct": 1.3821352671928633,
+      "published_annual_pct": 1.38,
+      "difference_pp": 0.002135267192863388,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "VOO",
+      "year": 2025,
+      "compounded_monthly_pct": 17.81423515816183,
+      "published_annual_pct": 17.82,
+      "difference_pp": -0.005764841838171719,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "QQQ",
+      "year": 2025,
+      "compounded_monthly_pct": 20.774228594454904,
+      "published_annual_pct": 20.77,
+      "difference_pp": 0.004228594454904311,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "SOXX",
+      "year": 2025,
+      "compounded_monthly_pct": 40.746142388207375,
+      "published_annual_pct": 40.74,
+      "difference_pp": 0.006142388207372562,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "SCHD",
+      "year": 2025,
+      "compounded_monthly_pct": 4.367296067803639,
+      "published_annual_pct": 4.34,
+      "difference_pp": 0.027296067803638913,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "BIL",
+      "year": 2025,
+      "compounded_monthly_pct": 4.157141472775838,
+      "published_annual_pct": 4.15,
+      "difference_pp": 0.007141472775837876,
+      "within_rounding_tolerance": true
+    },
+    {
+      "asset": "BND",
+      "year": 2025,
+      "compounded_monthly_pct": 7.083370192716076,
+      "published_annual_pct": 7.08,
+      "difference_pp": 0.0033701927160763034,
+      "within_rounding_tolerance": true
+    }
+  ],
+  "october_price_ratio_checks": [
+    {
+      "asset": "VOO",
+      "month": "2026-10",
+      "primary_total_return_pct": -0.86,
+      "alternate_adjusted_price_ratio_pct": -0.8632251804925439,
+      "difference_pp": -0.0032251804925439442,
+      "status": "agrees within 0.10 pp display tolerance"
+    },
+    {
+      "asset": "QQQ",
+      "month": "2026-10",
+      "primary_total_return_pct": -6.660000000000001,
+      "alternate_adjusted_price_ratio_pct": -6.661529934979793,
+      "difference_pp": -0.0015299349797919248,
+      "status": "agrees within 0.10 pp display tolerance"
+    },
+    {
+      "asset": "SOXX",
+      "month": "2026-10",
+      "primary_total_return_pct": -17.08,
+      "alternate_adjusted_price_ratio_pct": -17.082563967290966,
+      "difference_pp": -0.002563967290967639,
+      "status": "agrees within 0.10 pp display tolerance"
+    },
+    {
+      "asset": "SCHD",
+      "month": "2026-10",
+      "primary_total_return_pct": 9.99,
+      "alternate_adjusted_price_ratio_pct": 9.99077774362127,
+      "difference_pp": 0.0007777436212705879,
+      "status": "agrees within 0.10 pp display tolerance"
+    },
+    {
+      "asset": "BIL",
+      "month": "2026-10",
+      "primary_total_return_pct": 0.35,
+      "alternate_adjusted_price_ratio_pct": 0.35137806083234135,
+      "difference_pp": 0.0013780608323413768,
+      "status": "agrees within 0.10 pp display tolerance"
+    },
+    {
+      "asset": "BND",
+      "month": "2026-10",
+      "primary_total_return_pct": 2.37,
+      "alternate_adjusted_price_ratio_pct": 2.7422828427853485,
+      "difference_pp": 0.3722828427853484,
+      "status": "REVIEW: not interchangeable"
+    }
+  ],
+  "independent_publisher_checks": [
+    {
+      "asset": "BND",
+      "month": "2026-10",
+      "reference_pct": 2.37,
+      "source": "https://www.lazyportfolioetf.com/etf/vanguard-total-bond-market-bnd/",
+      "definition": "USD one-month nominal reinvested return, period ending Oct 31, 2026",
+      "primary_pct": 2.37,
+      "difference_pp": 0.0
+    },
+    {
+      "asset": "SOXX",
+      "month": "2026-10",
+      "reference_pct": -17.1,
+      "source": "https://chartrow.com/quote/soxx/monthly-returns",
+      "definition": "Dividend/split-adjusted monthly total return, 0.1 pp display rounding",
+      "primary_pct": -17.08,
+      "difference_pp": 0.020000000000003126
+    }
+  ],
+  "note": "Same-provider annual compounding checks detect transcription errors but are not independent source verification. Digrin discrepancy for BND is not spliced into the series; independent one-month return agrees with primary. Providers may share upstream data. No redistribution rights confirmed."
+}

@@ -1,0 +1,27 @@
+test_30bps_cost_direction_both (test_engine.EngineTests.test_30bps_cost_direction_both) ... ok
+test_annual_source_reconciliation (test_engine.EngineTests.test_annual_source_reconciliation) ... ok
+test_bad_holdings_and_params (test_engine.EngineTests.test_bad_holdings_and_params) ... ok
+test_baseline_verdicts_and_selection (test_engine.EngineTests.test_baseline_verdicts_and_selection) ... ok
+test_chronological_split (test_engine.EngineTests.test_chronological_split) ... ok
+test_consumed_turnover (test_engine.EngineTests.test_consumed_turnover) ... ok
+test_data_freshness_boundary (test_engine.EngineTests.test_data_freshness_boundary) ... ok
+test_data_schema_missing_and_duplicates (test_engine.EngineTests.test_data_schema_missing_and_duplicates) ... ok
+test_drawdown_boundary (test_engine.EngineTests.test_drawdown_boundary) ... ok
+test_frontier_is_nondominated (test_engine.EngineTests.test_frontier_is_nondominated) ... ok
+test_grid (test_engine.EngineTests.test_grid) ... ok
+test_historical_drift_and_cost (test_engine.EngineTests.test_historical_drift_and_cost) ... ok
+test_independent_two_asset_known_answer (test_engine.EngineTests.test_independent_two_asset_known_answer) ... ok
+test_independent_weighted_monthly_returns (test_engine.EngineTests.test_independent_weighted_monthly_returns) ... ok
+test_infeasible_rule (test_engine.EngineTests.test_infeasible_rule) ... ok
+test_optimizer_global_grid_winners (test_engine.EngineTests.test_optimizer_global_grid_winners) ... ok
+test_rebuild_exact_snapshot (test_engine.EngineTests.test_rebuild_exact_snapshot) ... ok
+test_sensitivity_suite (test_engine.EngineTests.test_sensitivity_suite) ... ok
+test_signal_pause (test_engine.EngineTests.test_signal_pause) ... ok
+test_source_checksum_fails_loudly (test_engine.EngineTests.test_source_checksum_fails_loudly) ... ok
+test_source_rf_and_vintage_gate (test_engine.EngineTests.test_source_rf_and_vintage_gate) ... ok
+test_source_window_and_last_month (test_engine.EngineTests.test_source_window_and_last_month) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.499s
+
+OK

@@ -1,0 +1,9 @@
+FIN 439 PROJECT 2 — ENHANCED VERSION (Nov 24, 2026)
+Do not overwrite your working original until this version runs. Extract this ZIP into a separate folder.
+
+1. Open the folder FIN439_Project2_Enhanced in VS Code, or double-click RUN_WINDOWS.bat.
+2. The run command is py -m streamlit run app.py (or the isolated venv command in README).
+3. Expected baseline: 22 calculation tests pass; minimum vol 6.28% / 7.35%; maximum estimated Sharpe 12.24% / 14.18%; PILOT, 0% live capital.
+4. Verify the application. The revised dashboard was syntax-checked here; Streamlit runtime was not available. Report actual errors if any.
+5. Do NOT run the additional SOXX haircut test yet. It is reserved for your genuinely AI-off precommitted prediction, after you freeze the baseline.
+6. Review docs/student-evidence-steps.md and docs/submission-manifest.md. Complete real student evidence before final submission; no GitHub action has been taken by the assistant.

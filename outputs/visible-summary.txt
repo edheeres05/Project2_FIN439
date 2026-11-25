@@ -1,0 +1,15 @@
+FIN 439 Project 2 | November 24, 2026 frozen research review
+60 completed monthly total returns, November 2021–October 2026.
+Treasury proxy: 4.37%; source available Nov 24, 2026 after 3:16 CST.
+Signal: 12.09%; feasible 1,082/53,130
+Portfolio | net annual estimate | annual volatility | estimated Sharpe | one-way turnover | verdict
+Equal weight | 11.87% | 13.83% | 0.542 | 56.67% | FAIL
+Inverse volatility | 4.21% | 1.85% | -0.086 | 80.98% | FAIL
+Benchmark | 6.68% | 9.58% | 0.242 | 0.00% | PASS
+Minimum volatility | 6.28% | 7.35% | 0.260 | 25.00% | PASS
+  VOO 40%, BIL 35%, BND 25%
+Maximum estimated Sharpe | 12.24% | 14.18% | 0.555 | 25.00% | PASS
+  VOO 50%, SOXX 15%, SCHD 10%, BIL 10%, BND 15%
+PILOT: paper trading only; 0% live capital
+Research-only; the chronological diagnostic is not a true holdout.
+Independent human precommit/cold run/recordings not generated.

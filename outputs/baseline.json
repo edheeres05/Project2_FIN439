@@ -1,0 +1,346 @@
+{
+  "decision_date": "2026-11-24",
+  "snapshot_date": "2026-11-24",
+  "data_end": "2026-10-31",
+  "last_trading_session": "2026-10-30",
+  "data_age_days": 25,
+  "source": "PortfoliosLab monthly total returns, rounded 0.01 percentage point",
+  "return_file_sha256": "33294b3122e0990303672b4cca389a1462930a160a214662875bf4361ead4378",
+  "window_returns": 60,
+  "risk_free": 0.0437,
+  "risk_free_source": {
+    "series": "DGS3MO",
+    "source": "Board of Governors of the Federal Reserve System (US), via FRED",
+    "url": "https://fred.stlouisfed.org/series/DGS3MO/history",
+    "observation_date": "2026-11-23",
+    "published_at": "2026-11-24T15:16:00-06:00",
+    "retrieved_date": "2026-11-24",
+    "annual_percent": 4.37,
+    "definition": "3-month constant-maturity Treasury yield, investment basis, annualized percent; short-term risk-free proxy, not guaranteed five-year cash return"
+  },
+  "risk_free_scenario": false,
+  "cost_bps": 10.0,
+  "target": 0.06,
+  "reserve": 0.05,
+  "vol_limit": 0.15,
+  "turnover_limit": 0.25,
+  "prior_turnover": 0.0,
+  "drawdown": 0.0,
+  "equity_haircut": 0.0,
+  "soxx_haircut": 0.0,
+  "pretrade_weights": {
+    "VOO": 0.5,
+    "QQQ": 0.0,
+    "SOXX": 0.0,
+    "SCHD": 0.0,
+    "BIL": 0.1,
+    "BND": 0.4
+  },
+  "signal_value": 0.12094967522561584,
+  "stale": false,
+  "paused": false,
+  "grid_count": 53130,
+  "feasible_grid_count": 1082,
+  "rows": [
+    {
+      "portfolio": "Equal weight",
+      "weights": {
+        "VOO": 0.16666666666666666,
+        "QQQ": 0.16666666666666666,
+        "SOXX": 0.16666666666666666,
+        "SCHD": 0.16666666666666666,
+        "BIL": 0.16666666666666666,
+        "BND": 0.16666666666666666
+      },
+      "gross_estimate": 0.11996333333333331,
+      "net_estimate": 0.11869404155555552,
+      "volatility": 0.13827782746948208,
+      "estimated_sharpe": 0.5423432153076508,
+      "one_way_turnover": 0.5666666666666667,
+      "rolling_turnover": 0.5666666666666667,
+      "trading_cost": 0.0011333333333333332,
+      "equity_weight": 0.6666666666666666,
+      "numerical_verdict": "FAIL",
+      "verdict": "FAIL",
+      "failed_rules": [
+        "Rolling turnover ceiling"
+      ]
+    },
+    {
+      "portfolio": "Inverse volatility",
+      "weights": {
+        "VOO": 0.026818319018683475,
+        "QQQ": 0.019775181990063458,
+        "SOXX": 0.010697652607210043,
+        "SCHD": 0.026632267233161807,
+        "BIL": 0.8526968417572228,
+        "BND": 0.0633797373936585
+      },
+      "gross_estimate": 0.04379951164561394,
+      "net_estimate": 0.04210896989912105,
+      "volatility": 0.018493387187280438,
+      "estimated_sharpe": -0.08603237929140668,
+      "one_way_turnover": 0.809801943587658,
+      "rolling_turnover": 0.809801943587658,
+      "trading_cost": 0.001619603887175316,
+      "equity_weight": 0.08392342084911877,
+      "numerical_verdict": "FAIL",
+      "verdict": "FAIL",
+      "failed_rules": [
+        "Net return target",
+        "Rolling turnover ceiling"
+      ]
+    },
+    {
+      "portfolio": "Benchmark",
+      "weights": {
+        "VOO": 0.5,
+        "QQQ": 0.0,
+        "SOXX": 0.0,
+        "SCHD": 0.0,
+        "BIL": 0.1,
+        "BND": 0.4
+      },
+      "gross_estimate": 0.06684599999999999,
+      "net_estimate": 0.06684599999999996,
+      "volatility": 0.09580154772289273,
+      "estimated_sharpe": 0.24160361236490746,
+      "one_way_turnover": 0.0,
+      "rolling_turnover": 0.0,
+      "trading_cost": 0.0,
+      "equity_weight": 0.5,
+      "numerical_verdict": "PASS",
+      "verdict": "PASS",
+      "failed_rules": []
+    },
+    {
+      "portfolio": "Minimum volatility",
+      "weights": {
+        "VOO": 0.4,
+        "QQQ": 0.0,
+        "SOXX": 0.0,
+        "SCHD": 0.0,
+        "BIL": 0.35,
+        "BND": 0.25
+      },
+      "gross_estimate": 0.06337,
+      "net_estimate": 0.06283831500000003,
+      "volatility": 0.07352489299434925,
+      "estimated_sharpe": 0.2602970806291538,
+      "one_way_turnover": 0.25,
+      "rolling_turnover": 0.25,
+      "trading_cost": 0.0005,
+      "equity_weight": 0.4,
+      "numerical_verdict": "PASS",
+      "verdict": "PASS",
+      "failed_rules": []
+    },
+    {
+      "portfolio": "Maximum estimated Sharpe",
+      "weights": {
+        "VOO": 0.5,
+        "QQQ": 0.0,
+        "SOXX": 0.15,
+        "SCHD": 0.1,
+        "BIL": 0.1,
+        "BND": 0.15
+      },
+      "gross_estimate": 0.12293499999999999,
+      "net_estimate": 0.12237353250000016,
+      "volatility": 0.14182158105808004,
+      "estimated_sharpe": 0.5547359711621116,
+      "one_way_turnover": 0.25,
+      "rolling_turnover": 0.25,
+      "trading_cost": 0.0005,
+      "equity_weight": 0.75,
+      "numerical_verdict": "PASS",
+      "verdict": "PASS",
+      "failed_rules": []
+    }
+  ],
+  "asset_annual_arithmetic_means": {
+    "VOO": 0.12603999999999999,
+    "QQQ": 0.14435999999999996,
+    "SOXX": 0.29916,
+    "SCHD": 0.1131,
+    "BIL": 0.03674,
+    "BND": 0.0003799999999999984
+  },
+  "asset_annual_volatilities": {
+    "VOO": 0.15462640334098665,
+    "QQQ": 0.2096982073587934,
+    "SOXX": 0.38763833205009063,
+    "SCHD": 0.1557066162338102,
+    "BIL": 0.004863182329800248,
+    "BND": 0.06542816969647332
+  },
+  "recommendation": "PILOT: paper trading only",
+  "stop_reasons": [],
+  "live_allocation": 0.0,
+  "frontier": [
+    {
+      "volatility": 0.07352489299434925,
+      "net_return": 0.06283831500000003
+    },
+    {
+      "volatility": 0.0783877987062843,
+      "net_return": 0.06339303750000003
+    },
+    {
+      "volatility": 0.07876567215105054,
+      "net_return": 0.06911817349999994
+    },
+    {
+      "volatility": 0.08337494084362498,
+      "net_return": 0.06967289600000015
+    },
+    {
+      "volatility": 0.08414769383830482,
+      "net_return": 0.07539803200000006
+    },
+    {
+      "volatility": 0.08852568319228617,
+      "net_return": 0.07595275450000005
+    },
+    {
+      "volatility": 0.08953506163149681,
+      "net_return": 0.07921412299999986
+    },
+    {
+      "volatility": 0.09178161217702356,
+      "net_return": 0.07986079950000002
+    },
+    {
+      "volatility": 0.09366250157310664,
+      "net_return": 0.08077634150000024
+    },
+    {
+      "volatility": 0.0938130825523077,
+      "net_return": 0.08223261299999995
+    },
+    {
+      "volatility": 0.0952523812309671,
+      "net_return": 0.0830302140000001
+    },
+    {
+      "volatility": 0.09715011671573719,
+      "net_return": 0.08367689050000005
+    },
+    {
+      "volatility": 0.09882322642442012,
+      "net_return": 0.08459243250000004
+    },
+    {
+      "volatility": 0.09884661413917857,
+      "net_return": 0.08604870399999998
+    },
+    {
+      "volatility": 0.09921529307820051,
+      "net_return": 0.08851247150000008
+    },
+    {
+      "volatility": 0.10421711846599833,
+      "net_return": 0.089864795
+    },
+    {
+      "volatility": 0.10422688853885798,
+      "net_return": 0.0923285625000001
+    },
+    {
+      "volatility": 0.1068054964925352,
+      "net_return": 0.09297523900000026
+    },
+    {
+      "volatility": 0.10902725286577494,
+      "net_return": 0.09389078100000003
+    },
+    {
+      "volatility": 0.10956098846830721,
+      "net_return": 0.0961446534999999
+    },
+    {
+      "volatility": 0.1118283146431717,
+      "net_return": 0.09679133000000006
+    },
+    {
+      "volatility": 0.11386037404780074,
+      "net_return": 0.09770687200000006
+    },
+    {
+      "volatility": 0.11489523205984113,
+      "net_return": 0.0991631435
+    },
+    {
+      "volatility": 0.11517279227133582,
+      "net_return": 0.09996074450000014
+    },
+    {
+      "volatility": 0.11556831411238837,
+      "net_return": 0.10162691099999988
+    },
+    {
+      "volatility": 0.11989723114195955,
+      "net_return": 0.10297923450000002
+    },
+    {
+      "volatility": 0.12024758696757881,
+      "net_return": 0.10544300200000012
+    },
+    {
+      "volatility": 0.12304667680241772,
+      "net_return": 0.10608967850000006
+    },
+    {
+      "volatility": 0.12518216209466476,
+      "net_return": 0.10679532550000004
+    },
+    {
+      "volatility": 0.12523468010912112,
+      "net_return": 0.10925909300000014
+    },
+    {
+      "volatility": 0.12775961638123906,
+      "net_return": 0.10990576950000008
+    },
+    {
+      "volatility": 0.1300456086131949,
+      "net_return": 0.11082131150000007
+    },
+    {
+      "volatility": 0.13049430645934362,
+      "net_return": 0.11307518399999994
+    },
+    {
+      "volatility": 0.13273250135842543,
+      "net_return": 0.11474135050000012
+    },
+    {
+      "volatility": 0.1365247418366331,
+      "net_return": 0.11609367400000004
+    },
+    {
+      "volatility": 0.1371322022446137,
+      "net_return": 0.11855744149999992
+    },
+    {
+      "volatility": 0.1400823904247734,
+      "net_return": 0.11920411800000008
+    },
+    {
+      "volatility": 0.14182158105808004,
+      "net_return": 0.12237353250000016
+    },
+    {
+      "volatility": 0.1445302322828301,
+      "net_return": 0.1230202090000001
+    },
+    {
+      "volatility": 0.14700019287315844,
+      "net_return": 0.1239357510000001
+    },
+    {
+      "volatility": 0.14936532170617728,
+      "net_return": 0.12539202250000003
+    }
+  ]
+}

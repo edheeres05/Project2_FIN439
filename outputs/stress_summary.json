@@ -1,0 +1,511 @@
+{
+  "Base": {
+    "decision": "PILOT: paper trading only",
+    "count": 1082,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.4,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.35,
+          "BND": 0.25
+        },
+        "gross_estimate": 0.06337,
+        "net_estimate": 0.06283831500000003,
+        "volatility": 0.07352489299434925,
+        "estimated_sharpe": 0.2602970806291538,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.4,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.5,
+          "QQQ": 0.0,
+          "SOXX": 0.15,
+          "SCHD": 0.1,
+          "BIL": 0.1,
+          "BND": 0.15
+        },
+        "gross_estimate": 0.12293499999999999,
+        "net_estimate": 0.12237353250000016,
+        "volatility": 0.14182158105808004,
+        "estimated_sharpe": 0.5547359711621116,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.75,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    ]
+  },
+  "Trading costs 30 bps": {
+    "decision": "PILOT: paper trading only",
+    "count": 1069,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.4,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.35,
+          "BND": 0.25
+        },
+        "gross_estimate": 0.06337,
+        "net_estimate": 0.061774945000000026,
+        "volatility": 0.07352489299434925,
+        "estimated_sharpe": 0.24583435981864227,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0015,
+        "equity_weight": 0.4,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.5,
+          "QQQ": 0.0,
+          "SOXX": 0.15,
+          "SCHD": 0.1,
+          "BIL": 0.1,
+          "BND": 0.15
+        },
+        "gross_estimate": 0.12293499999999999,
+        "net_estimate": 0.1212505975,
+        "volatility": 0.14182158105808004,
+        "estimated_sharpe": 0.5468180295369912,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0015,
+        "equity_weight": 0.75,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    ]
+  },
+  "Trading costs 50 bps": {
+    "decision": "PILOT: paper trading only",
+    "count": 1059,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.4,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.35,
+          "BND": 0.25
+        },
+        "gross_estimate": 0.06337,
+        "net_estimate": 0.06071157500000002,
+        "volatility": 0.07352489299434925,
+        "estimated_sharpe": 0.23137163900813074,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0025,
+        "equity_weight": 0.4,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.5,
+          "QQQ": 0.0,
+          "SOXX": 0.15,
+          "SCHD": 0.1,
+          "BIL": 0.1,
+          "BND": 0.15
+        },
+        "gross_estimate": 0.12293499999999999,
+        "net_estimate": 0.12012766250000007,
+        "volatility": 0.14182158105808004,
+        "estimated_sharpe": 0.5389000879118724,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0025,
+        "equity_weight": 0.75,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    ]
+  },
+  "Equity annual means minus 2 pp": {
+    "decision": "PILOT: paper trading only",
+    "count": 929,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.45,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.35,
+          "BND": 0.2
+        },
+        "gross_estimate": 0.06065299999999999,
+        "net_estimate": 0.06012267350000022,
+        "volatility": 0.07876567215105054,
+        "estimated_sharpe": 0.20850039175068708,
+        "one_way_turnover": 0.24999999999999997,
+        "rolling_turnover": 0.24999999999999997,
+        "trading_cost": 0.0004999999999999999,
+        "equity_weight": 0.45,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.45,
+          "QQQ": 0.0,
+          "SOXX": 0.2,
+          "SCHD": 0.05,
+          "BIL": 0.1,
+          "BND": 0.2
+        },
+        "gross_estimate": 0.111955,
+        "net_estimate": 0.11139902250000011,
+        "volatility": 0.14936532170617728,
+        "estimated_sharpe": 0.4532445799780331,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.7000000000000001,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    ]
+  },
+  "36-month window": {
+    "decision": "PILOT: paper trading only",
+    "count": 1230,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.25,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.35,
+          "BND": 0.4
+        },
+        "gross_estimate": 0.09164666666666667,
+        "net_estimate": 0.09110084333333335,
+        "volatility": 0.04523591748241866,
+        "estimated_sharpe": 1.0478585595562664,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.25,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.5,
+          "QQQ": 0.0,
+          "SOXX": 0.05,
+          "SCHD": 0.2,
+          "BIL": 0.1,
+          "BND": 0.15
+        },
+        "gross_estimate": 0.1856,
+        "net_estimate": 0.18500720000000004,
+        "volatility": 0.09485904996361706,
+        "estimated_sharpe": 1.4896543877911284,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.75,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    ]
+  },
+  "48-month window": {
+    "decision": "PILOT: paper trading only",
+    "count": 1230,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.25,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.35,
+          "BND": 0.4
+        },
+        "gross_estimate": 0.08001874999999999,
+        "net_estimate": 0.07947874062500015,
+        "volatility": 0.04962986105539346,
+        "estimated_sharpe": 0.7209115613897522,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.25,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.5,
+          "QQQ": 0.0,
+          "SOXX": 0.15,
+          "SCHD": 0.1,
+          "BIL": 0.1,
+          "BND": 0.15
+        },
+        "gross_estimate": 0.18722375,
+        "net_estimate": 0.18663013812500018,
+        "volatility": 0.12344739405432256,
+        "estimated_sharpe": 1.1578222385326684,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.75,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    ]
+  },
+  "BIL reserve floor 10%": {
+    "decision": "PILOT: paper trading only",
+    "count": 766,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.4,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.35,
+          "BND": 0.25
+        },
+        "gross_estimate": 0.06337,
+        "net_estimate": 0.06283831500000003,
+        "volatility": 0.07352489299434925,
+        "estimated_sharpe": 0.2602970806291538,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.4,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.5,
+          "QQQ": 0.0,
+          "SOXX": 0.15,
+          "SCHD": 0.1,
+          "BIL": 0.1,
+          "BND": 0.15
+        },
+        "gross_estimate": 0.12293499999999999,
+        "net_estimate": 0.12237353250000016,
+        "volatility": 0.14182158105808004,
+        "estimated_sharpe": 0.5547359711621116,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.75,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    ]
+  },
+  "Turnover ceiling 10%": {
+    "decision": "PILOT: paper trading only",
+    "count": 71,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.45,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.2,
+          "BND": 0.35
+        },
+        "gross_estimate": 0.06419899999999999,
+        "net_estimate": 0.06398616019999981,
+        "volatility": 0.08586334034481474,
+        "estimated_sharpe": 0.23626101801459767,
+        "one_way_turnover": 0.10000000000000002,
+        "rolling_turnover": 0.10000000000000002,
+        "trading_cost": 0.00020000000000000004,
+        "equity_weight": 0.45,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.5,
+          "QQQ": 0.0,
+          "SOXX": 0.1,
+          "SCHD": 0.0,
+          "BIL": 0.1,
+          "BND": 0.3
+        },
+        "gross_estimate": 0.09672399999999999,
+        "net_estimate": 0.09650465519999996,
+        "volatility": 0.12198726523699105,
+        "estimated_sharpe": 0.4328702270471724,
+        "one_way_turnover": 0.10000000000000002,
+        "rolling_turnover": 0.10000000000000002,
+        "trading_cost": 0.00020000000000000004,
+        "equity_weight": 0.6,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    ]
+  },
+  "Volatility ceiling 5%": {
+    "decision": "STOP / NO NEW RISK",
+    "count": 0,
+    "rows": []
+  },
+  "Drawdown 15%": {
+    "decision": "STOP / NO NEW RISK",
+    "count": 1082,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.4,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.35,
+          "BND": 0.25
+        },
+        "gross_estimate": 0.06337,
+        "net_estimate": 0.06283831500000003,
+        "volatility": 0.07352489299434925,
+        "estimated_sharpe": 0.2602970806291538,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.4,
+        "numerical_verdict": "PASS",
+        "verdict": "FAIL",
+        "failed_rules": [
+          "Signal/drawdown pause"
+        ]
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.5,
+          "QQQ": 0.0,
+          "SOXX": 0.15,
+          "SCHD": 0.1,
+          "BIL": 0.1,
+          "BND": 0.15
+        },
+        "gross_estimate": 0.12293499999999999,
+        "net_estimate": 0.12237353250000016,
+        "volatility": 0.14182158105808004,
+        "estimated_sharpe": 0.5547359711621116,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.75,
+        "numerical_verdict": "PASS",
+        "verdict": "FAIL",
+        "failed_rules": [
+          "Signal/drawdown pause"
+        ]
+      }
+    ]
+  },
+  "Treasury proxy +1 pp": {
+    "decision": "PILOT: paper trading only",
+    "count": 1082,
+    "rows": [
+      {
+        "portfolio": "Minimum volatility",
+        "weights": {
+          "VOO": 0.4,
+          "QQQ": 0.0,
+          "SOXX": 0.0,
+          "SCHD": 0.0,
+          "BIL": 0.35,
+          "BND": 0.25
+        },
+        "gross_estimate": 0.06337,
+        "net_estimate": 0.06283831500000003,
+        "volatility": 0.07352489299434925,
+        "estimated_sharpe": 0.12428872219783242,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.4,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      },
+      {
+        "portfolio": "Maximum estimated Sharpe",
+        "weights": {
+          "VOO": 0.5,
+          "QQQ": 0.0,
+          "SOXX": 0.15,
+          "SCHD": 0.1,
+          "BIL": 0.1,
+          "BND": 0.15
+        },
+        "gross_estimate": 0.12293499999999999,
+        "net_estimate": 0.12237353250000016,
+        "volatility": 0.14182158105808004,
+        "estimated_sharpe": 0.4842248407305258,
+        "one_way_turnover": 0.25,
+        "rolling_turnover": 0.25,
+        "trading_cost": 0.0005,
+        "equity_weight": 0.75,
+        "numerical_verdict": "PASS",
+        "verdict": "PASS",
+        "failed_rules": []
+      }
+    ]
+  }
+}
