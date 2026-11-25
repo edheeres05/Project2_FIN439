@@ -13,7 +13,7 @@ Extract all contents, open the directory containing `app.py` in VS Code, and run
 ```powershell
 py -m venv .venv
 .\.venv\Scripts\python -m pip install -r requirements.txt
-.\.venv\Scripts\python -m unittest discover -s tests -v
+.\.venv\Scripts\python -m unittest discover -s . -p test_engine.py -v
 .\.venv\Scripts\python audit_data.py
 .\.venv\Scripts\python generate_outputs.py
 .\.venv\Scripts\python -m streamlit run app.py
@@ -52,16 +52,16 @@ Minimum volatility = 40% VOO / 35% BIL / 25% BND. Maximum estimated Sharpe = 50%
 
 ## Code, evidence, and reproducibility
 
-`engine.py` is the calculation layer; `app.py` the UI. `build_data.py` rebuilds the frozen CSV from transcribed rounded source values; `audit_data.py` independently reconciles annual totals and cross-source differences. `generate_outputs.py` writes visible results without running Streamlit. Tests check both optimizers using a separate direct-monthly-return implementation, known answers, source integrity, stops, feasibility and path calculation. `outputs/` contains the executed baseline, stress results, diagnostics, data audit and calculation-test log. 22 calculation tests passed in the available environment; the revised UI passed syntax compilation only there. A fresh end-to-end run by a separate user is required.
+`engine.py` is the calculation layer; `app.py` the UI. `build_data.py` rebuilds the frozen CSV from transcribed rounded source values; `audit_data.py` independently reconciles annual totals and cross-source differences. `generate_outputs.py` writes visible results without running Streamlit. Tests check both optimizers using a separate direct-monthly-return implementation, known answers, source integrity, stops, feasibility and path calculation. `outputs/` contains the executed baseline, stress results, diagnostics, data audit and calculation-test log. 22 calculation tests passed in the Linux calculation environment and on the student's Windows machine (0.524 seconds); the student also launched the revised UI. A fresh end-to-end run by a separate user remains outstanding.
 
 - [Decision memo](docs/decision-memo.md)
 - [Validation and AI use](docs/validation-and-ai-use.md)
 - [Provenance](docs/data-provenance.md) and [signal card](docs/signal-data-card.md)
 - [Pilot monitoring](docs/pilot-monitoring.md)
 - [Visible baseline](outputs/visible-summary.txt)
-- [Independent locked experiment instructions](docs/locked-change-record.md)
+- [Original pre-run prediction](ai-off-prediction.md) and [executed changed-input result](locked-change-result.json)
 - [Student evidence steps](docs/student-evidence-steps.md) and [submission checklist](docs/submission-manifest.md)
 
 Source: PortfoliosLab monthly tables for six tickers; FRED series DGS3MO; historical U.S. Treasury yield table. Exact URLs, date boundaries, definitions and discrepancies are in provenance. Source redistribution permission has not been established; restrict course-evaluation access rather than assuming open licensing. No private account or credentials.
 
-The earlier AI-assisted 10→30 bps experiment is exploratory, not the formal AI-off precommit. The SOXX-specific new experiment must be predicted and committed by the student before running it. Actual cold-run evidence, independent personal AI-output check, video recordings, captions/transcripts and manifest links are student-owned artifacts; do not represent them as already completed. Project instructions: https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/projects/project-2-investment-management-application.md.
+The earlier AI-assisted 10→30 bps experiment is exploratory, not the formal AI-off precommit. The SOXX-specific experiment was predicted, committed and executed on November 25; procedural AI assistance is disclosed in the validation record. The student also checked BND's October total return across three sources. Independent cold-run evidence, recordings, actual transcripts and final manifest remain outstanding. Project instructions: https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/projects/project-2-investment-management-application.md.
