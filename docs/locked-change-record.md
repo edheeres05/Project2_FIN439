@@ -1,13 +1,17 @@
-# Required locked changed-input experiment — instructions
+# SOXX changed-input experiment — evidence and reproduction
 
-The earlier cost prediction and exploratory stress results were AI-assisted, so they are not the locked record. The new experiment targets a load-bearing input of the high-return portfolio: the estimated semiconductor return. The exact changed scenario is **not** in the default stress suite, visible outputs, tests, or historical checks.
+The student committed the prediction before personally running the application on November 25, 2026. The changed input was a 10-percentage-point reduction in SOXX's annual expected return. See the [validation record](validation-and-ai-use.md#5-locked-changed-input-record--november-25-2026) for exact inputs, the chronology, before/after results, discrepancy diagnosis and AI-use disclosure.
 
-**Single input:** Additional SOXX annual expected-return haircut, from **0 percentage points to 10 percentage points**. All 60 monthly observations, annual covariance, FRED 4.37%, cost 10 bps, return floor 6%, reserve 5%, volatility cap 15%, turnover ceiling 25%, zero prior turnover and drawdown, benchmark starting weights, date Nov 24, 2026, and code remain unchanged. Both optimizers are re-run. Do not run or ask AI for the result until your prediction is committed.
+- [Frozen baseline commit](https://github.com/edheeres05/Project2_FIN439/commit/4442c05594191d47a292a040d9ef974502b396de)
+- [Original prediction commit](https://github.com/edheeres05/Project2_FIN439/commit/e6329aea9b34afa81649ae3ba40990d8e068c11f)
+- [Original prediction](../ai-off-prediction.md)
+- [Original baseline output](../outputs/baseline.json)
+- [Original student UI export](../locked-change-result.json)
 
-1. First run the revised app at the default settings and verify outputs. Freeze the reviewed baseline code/data/outputs in your new GitHub repository. Record its full commit URL and time. Do not run the SOXX-specific change yet.
-2. Close AI and independently write `docs/ai-off-prediction.md`: exact old/new value and units; your prediction for each optimizer's allocation, estimated net return, volatility, risk-adjusted score, numerical verdict and your predicted committee decision effect; why you expect those directions. State the baseline commit link. Use your own words. No AI-written prediction, editing or proofreading.
-3. Commit that file by itself to GitHub before executing the new test. Save its full commit URL and timestamp. Preserve the original unchanged.
-4. After the prediction commit, run the app at the identical frozen baseline and set **Additional SOXX annual return haircut (percentage points)** to 10. Export review JSON from the Data & methods tab and save a screenshot. Or clone the actual repository containing both commits and run `py run_locked_change.py --baseline-commit BASELINE_SHA --prediction-commit PREDICTION_SHA`. Replace these two command arguments with the real commits. The CLI checks Git ordering and unchanged tracked model inputs before execution, records both outputs and timestamps, and cannot itself attest human authorship. It must not be invoked before the actual prediction commit.
-5. Compare expected versus actual allocation, net estimate, volatility, score and committee action for both candidates. Explain any disagreement using the objective, constraints and load-bearing input. Explain whether you personally retain pilot or change the decision; distinguish a numerical pass from live readiness. Add the precommit links, untouched prediction, actual result/commit, times and discrepancy diagnosis to `validation-and-ai-use.md`.
+For optional post-experiment reproduction from a clean Git clone, install dependencies following the README and run:
 
-This document is a guide, not a completed human-authored prediction or result. If the result has already been seen, choose a different untested material input before any AI-off prediction. Do not falsify timestamps or use earlier Lab evidence as if it were the final-model test.
+```powershell
+py run_locked_change.py --baseline-commit 4442c05594191d47a292a040d9ef974502b396de --prediction-commit e6329aea9b34afa81649ae3ba40990d8e068c11f
+```
+
+The helper was updated after the original experiment to match the actual root-level file paths. It checks Git order and unchanged calculation inputs and writes `outputs/locked-change-reproduction.json` separately; it does not overwrite or replace the original student export or attest AI-off authorship.
