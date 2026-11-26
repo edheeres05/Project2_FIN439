@@ -1,0 +1,61 @@
+FIN 439 Project 2 — Video 2: Technical Walkthrough and Validation
+Duration: 4:29
+Transcript source: supplied recording captions; corrected apparent recognition errors in names, financial terms, and material numbers against the script and visible project results. Speaker review of uncertain audio/number corrections is required before final submission.
+
+[00:00] For this project, I used ChatGPT to assist with research, coding, financial calculations, and validation.
+
+[00:06] The analysis and investment decisions are my own.
+
+[00:08] This project is for educational purposes and is not investment advice.
+
+[00:12] The two main Python files are engine.py which performs the financial calculations, and app.py which controls the user interface.
+
+[00:23] The application uses 60 monthly total returns for six ETFs from November 2021 through October 2026 to estimate returns, volatility, and relationships between assets.
+
+[00:36] Starting with engine.py, the estimate_from function calculates annual return estimates by multiplying average monthly returns by 12.
+
+[00:47] It also annualizes the covariance matrix, which accounts for how assets move together.
+
+[00:52] The metrics function calculates gross return, net return after trading costs, portfolio volatility, and turnover, which measures how much of the portfolio must be reallocated.
+
+[01:04] The optimize function evaluates 53,130 possible portfolios using allocation increments of 5%.
+
+[01:11] It filters these portfolios based on my 6% minimum estimated net return, 15% maximum volatility, 5% minimum BIL allocation, and 25% maximum annual turnover.
+
+[01:24] Of these portfolios, 1,082 meet all four requirements.
+
+[01:28] The function selects the portfolio with the lowest volatility and the portfolio with the highest estimated Sharpe ratio, which measures excess return relative to risk using a Treasury rate of 4.37%.
+
+[01:43] Moving on to app.py, the file.
+
+[01:46] This file allows users to adjust investment requirements and assumptions.
+
+[01:50] These inputs are passed into the review function from engine.py, which recalculates the portfolio results.
+
+[02:00] The application displays the feasible portfolios, efficient frontier and portfolio allocations, allowing users to compare estimated return and risk.
+
+[02:12] Moving on to the test_engine.py file.
+
+[02:16] This file contains 22 automated tests covering financial calculations, data integrity, portfolio selection, constraints, and failure conditions.
+
+[02:25] All 22 tests pass.
+
+[02:27] My dad also successfully launched the application on a second computer using the README in approximately 8 to 9 minutes without errors.
+
+[02:36] For my changed-input experiment, I wrote and committed my prediction to GitHub before reducing SOXX's estimated annual return by 10 percentage points.
+
+[02:45] I expected SOXX's allocation to decrease along with the estimated return and volatility of the maximum-Sharpe portfolio.
+
+[03:00] And as you can see, as I reduce SOXX's estimated annual return by 10 points, by 10 percentage points, the minimum-volatility portfolio remains unchanged because it already had no SOXX allocation.
+
+[03:18] The maximum-Sharpe portfolio reduces SOXX from 15% to 5%, reallocating those 10 percentage points equally between QQQ and SCHD.
+
+[03:29] Its estimated net return decreases from 12.24% to 10.03%, while volatility decreases from 14.18% to 12.44%.
+
+[03:38] The Sharpe ratio also decreases from 0.555 to 0.455, more than I originally expected because excess return declined proportionally more than volatility.
+
+[03:51] Portfolios still met my requirements, so my paper trading recommendation remains unchanged.
+
+[04:00] Finally, if I enter a current account drawdown of 15%, the application stops recommending new risk-taking, demonstrating that risk controls can override otherwise acceptable portfolio results.
+
+[04:17] The biggest limitation is that estimated returns are based on historical performance, which is why I recommend paper trading before committing any real capital.
