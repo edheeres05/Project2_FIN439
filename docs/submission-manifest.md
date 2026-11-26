@@ -1,10 +1,10 @@
 # Project 2 submission manifest — submission record
 
-Edition A/B and research-evolution PDF: not required for Project 2. Attach the two matching Markdown reports and three plain-text transcripts to Brightspace. The recordings have been produced and the transcript files are present; The student supplied all three YouTube URLs; instructional-team repository access, logged-out playback and published caption availability still require confirmation.
+Edition A/B and research-evolution PDF: not required for Project 2. Attach the two matching Markdown reports and three plain-text transcripts to Brightspace. The recordings have been produced and the transcript files are present; The student supplied all three YouTube URLs; repository visibility has been verified as public via GitHub metadata. Logged-out video playback and published caption availability still require confirmation.
 
 | Evidence | Location / status |
 |---|---|
-| Repository | [Project2_FIN439](https://github.com/edheeres05/Project2_FIN439); private; instructional-team access not yet confirmed |
+| Repository | [Project2_FIN439](https://github.com/edheeres05/Project2_FIN439); public (visibility verified via GitHub metadata); no collaborator invitation needed for read access |
 | README | [README.md](https://github.com/edheeres05/Project2_FIN439/blob/main/README.md) |
 | Runnable application | [app.py](https://github.com/edheeres05/Project2_FIN439/blob/main/app.py), [engine.py](https://github.com/edheeres05/Project2_FIN439/blob/main/engine.py), [requirements.txt](https://github.com/edheeres05/Project2_FIN439/blob/main/requirements.txt), [test_engine.py](https://github.com/edheeres05/Project2_FIN439/blob/main/test_engine.py) |
 | Data and signal | [data/monthly_returns_pct.csv](https://github.com/edheeres05/Project2_FIN439/blob/main/data/monthly_returns_pct.csv), [data/risk_free.json](https://github.com/edheeres05/Project2_FIN439/blob/main/data/risk_free.json), [docs/data-provenance.md](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/data-provenance.md), [docs/signal-data-card.md](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/signal-data-card.md) |
@@ -58,7 +58,7 @@ Timestamps are taken from the supplied recordings' captions, rounded down to the
 - [ ] Speaker review of apparent numerical caption errors against the actual audio; publish corrected captions on each YouTube video.
 - [x] Add the three student-supplied stable YouTube links (listed in video order).
 - [ ] Verify playback, actual published titles/durations and captions while logged out; independent web retrieval was unavailable.
-- [ ] Confirm instructional-team access to the private repository.
+- [x] Repository visibility verified public; instructional team can read without an invitation.
 - [ ] Freeze final repository revision and submit this manifest, matching two Markdown reports and three plain-text transcripts in Brightspace.
 
 No public redistribution of frozen source data without verified rights. No credentials or private data in repository.
