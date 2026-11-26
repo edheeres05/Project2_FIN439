@@ -1,0 +1,39 @@
+FIN 439 Project 2 — Video 1: Research Evolution and AI Verification
+Duration: 2:27
+Transcript source: supplied recording captions; corrected apparent recognition errors in names, financial terms, and material numbers against the script and visible project results. Speaker review of uncertain audio/number corrections is required before final submission.
+
+[00:00] For my FIN 439 Project 2, I used ChatGPT to assist with research, coding, financial calculations and validation.
+
+[00:09] The analysis and investment decisions are my own.
+
+[00:11] This project is for educational purposes and this is not investment advice.
+
+[00:15] My goal was to develop an investment management application for college students and young adults looking to invest over a five-year period.
+
+[00:22] I chose a minimum estimated annual net return of 6% and a maximum estimated annual volatility of 15%.
+
+[00:31] I wanted to balance growth with risk while allowing room for less risky investments like bonds and Treasury bills.
+
+[00:38] As the project developed, I decided to compare two strategies, one that minimizes volatility and another that maximizes estimated risk-adjusted returns.
+
+[00:49] One of the biggest improvements throughout the project was the quality of financial data.
+
+[00:54] I replaced the original dataset with 60 complete monthly total returns from a consistent source rather than combining data from different sources and methodologies.
+
+[01:06] One AI-generated result I personally verified was BND's October 2026 monthly return.
+
+[01:14] PortfoliosLab reported a return of 2.37%.
+
+[01:19] However, calculating the return using Digrin's adjusted historical prices produced a result of approximately 2.74%.
+
+[01:30] I then checked the third source, which also reported 2.37%.
+
+[01:34] I decided to retain the 2.37% figure because two sources supported the same monthly total return.
+
+[01:41] This demonstrated the importance of checking financial data across multiple sources before incorporating it into an investment model.
+
+[01:51] Ultimately, my minimum-volatility portfolio produced an estimated net annual return of 6.28% with 7.35% volatility, while my maximum-Sharpe portfolio produced an estimated net annual return of 12.24% with 14.18% volatility.
+
+[02:09] Although both portfolios meet my investment requirements, these estimates are based on historical performance and do not guarantee future returns.
+
+[02:17] Therefore, my final recommendation is to pilot both strategies through paper trading before committing any real capital.
