@@ -1,0 +1,179 @@
+WEBVTT
+
+00:00:00.600 --> 00:00:04.292
+For this project, I used ChatGPT to assist with research, coding, financial
+
+00:00:04.292 --> 00:00:05.720
+calculations, and validation.
+
+00:00:06.160 --> 00:00:08.560
+The analysis and investment decisions are my own.
+
+00:00:08.800 --> 00:00:12.000
+This project is for educational purposes and is not investment advice.
+
+00:00:12.400 --> 00:00:16.812
+The two main Python files are engine.py which performs the financial
+
+00:00:16.812 --> 00:00:20.640
+calculations, and app.py which controls the user interface.
+
+00:00:23.320 --> 00:00:29.080
+The application uses 60 monthly total returns for six ETFs from November
+
+00:00:29.080 --> 00:00:35.160
+2021 through October 2026 to estimate returns, volatility, and relationships
+
+00:00:35.160 --> 00:00:36.360
+between assets.
+
+00:00:36.360 --> 00:00:42.208
+Starting with engine.py, the estimate_from function calculates annual return
+
+00:00:42.208 --> 00:00:46.440
+estimates by multiplying average monthly returns by 12.
+
+00:00:47.000 --> 00:00:51.113
+It also annualizes the covariance matrix, which accounts for how assets move
+
+00:00:51.113 --> 00:00:51.600
+together.
+
+00:00:52.640 --> 00:00:57.074
+The metrics function calculates gross return, net return after trading
+
+00:00:57.074 --> 00:01:01.699
+costs, portfolio volatility, and turnover, which measures how much of the
+
+00:01:01.699 --> 00:01:03.599
+portfolio must be reallocated.
+
+00:01:04.960 --> 00:01:10.373
+The optimize function evaluates 53,130 possible portfolios using allocation
+
+00:01:10.373 --> 00:01:11.600
+increments of 5%.
+
+00:01:11.920 --> 00:01:17.743
+It filters these portfolios based on my 6% minimum estimated net return, 15%
+
+00:01:17.743 --> 00:01:23.030
+maximum volatility, 5% minimum BIL allocation, and 25% maximum annual
+
+00:01:23.030 --> 00:01:23.720
+turnover.
+
+00:01:24.440 --> 00:01:27.920
+Of these portfolios, 1,082 meet all four requirements.
+
+00:01:28.480 --> 00:01:32.916
+The function selects the portfolio with the lowest volatility and the
+
+00:01:32.916 --> 00:01:37.544
+portfolio with the highest estimated Sharpe ratio, which measures excess
+
+00:01:37.544 --> 00:01:41.080
+return relative to risk using a Treasury rate of 4.37%.
+
+00:01:43.960 --> 00:01:46.040
+Moving on to app.py, the file.
+
+00:01:46.040 --> 00:01:50.040
+This file allows users to adjust investment requirements and assumptions.
+
+00:01:50.080 --> 00:01:54.987
+These inputs are passed into the review function from engine.py, which
+
+00:01:54.987 --> 00:01:57.440
+recalculates the portfolio results.
+
+00:02:00.920 --> 00:02:05.524
+The application displays the feasible portfolios, efficient frontier and
+
+00:02:05.524 --> 00:02:10.320
+portfolio allocations, allowing users to compare estimated return and risk.
+
+00:02:12.920 --> 00:02:16.520
+Moving on to the test_engine.py file.
+
+00:02:16.720 --> 00:02:21.356
+This file contains 22 automated tests covering financial calculations, data
+
+00:02:21.356 --> 00:02:25.560
+integrity, portfolio selection, constraints, and failure conditions.
+
+00:02:25.880 --> 00:02:27.200
+All 22 tests pass.
+
+00:02:27.200 --> 00:02:31.216
+My dad also successfully launched the application on a second computer using
+
+00:02:31.216 --> 00:02:34.280
+the README in approximately 8 to 9 minutes without errors.
+
+00:02:36.720 --> 00:02:41.134
+For my changed-input experiment, I wrote and committed my prediction to
+
+00:02:41.134 --> 00:02:45.485
+GitHub before reducing SOXX's estimated annual return by 10 percentage
+
+00:02:45.485 --> 00:02:45.920
+points.
+
+00:02:45.960 --> 00:02:52.781
+I expected SOXX's allocation to decrease along with the estimated return and
+
+00:02:52.781 --> 00:02:56.640
+volatility of the maximum-Sharpe portfolio.
+
+00:03:00.480 --> 00:03:07.568
+And as you can see, as I reduce SOXX's estimated annual return by 10 points,
+
+00:03:07.568 --> 00:03:14.563
+by 10 percentage points, the minimum-volatility portfolio remains unchanged
+
+00:03:14.563 --> 00:03:18.480
+because it already had no SOXX allocation.
+
+00:03:18.480 --> 00:03:24.632
+The maximum-Sharpe portfolio reduces SOXX from 15% to 5%, reallocating those
+
+00:03:24.632 --> 00:03:28.680
+10 percentage points equally between QQQ and SCHD.
+
+00:03:29.280 --> 00:03:35.647
+Its estimated net return decreases from 12.24% to 10.03%, while volatility
+
+00:03:35.647 --> 00:03:38.400
+decreases from 14.18% to 12.44%.
+
+00:03:38.920 --> 00:03:44.364
+The Sharpe ratio also decreases from 0.555 to 0.455, more than I originally
+
+00:03:44.364 --> 00:03:49.880
+expected because excess return declined proportionally more than volatility.
+
+00:03:51.400 --> 00:03:55.816
+Portfolios still met my requirements, so my paper trading recommendation
+
+00:03:55.816 --> 00:03:56.920
+remains unchanged.
+
+00:04:00.000 --> 00:04:06.832
+Finally, if I enter a current account drawdown of 15%, the application stops
+
+00:04:06.832 --> 00:04:13.574
+recommending new risk-taking, demonstrating that risk controls can override
+
+00:04:13.574 --> 00:04:17.080
+otherwise acceptable portfolio results.
+
+00:04:17.720 --> 00:04:21.493
+The biggest limitation is that estimated returns are based on historical
+
+00:04:21.493 --> 00:04:25.319
+performance, which is why I recommend paper trading before committing any
+
+00:04:25.319 --> 00:04:26.000
+real capital.
+
