@@ -1,0 +1,107 @@
+WEBVTT
+
+00:00:00.480 --> 00:00:05.583
+For my FIN 439 Project 2, I used ChatGPT to assist with research, coding,
+
+00:00:05.583 --> 00:00:08.240
+financial calculations and validation.
+
+00:00:09.040 --> 00:00:10.920
+The analysis and investment decisions are my own.
+
+00:00:11.280 --> 00:00:14.680
+This project is for educational purposes and this is not investment advice.
+
+00:00:15.240 --> 00:00:18.325
+My goal was to develop an investment management application for college
+
+00:00:18.325 --> 00:00:21.280
+students and young adults looking to invest over a five-year period.
+
+00:00:22.160 --> 00:00:29.090
+I chose a minimum estimated annual net return of 6% and a maximum estimated
+
+00:00:29.090 --> 00:00:31.400
+annual volatility of 15%.
+
+00:00:31.440 --> 00:00:35.562
+I wanted to balance growth with risk while allowing room for less risky
+
+00:00:35.562 --> 00:00:38.000
+investments like bonds and Treasury bills.
+
+00:00:38.640 --> 00:00:42.692
+As the project developed, I decided to compare two strategies, one that
+
+00:00:42.692 --> 00:00:46.743
+minimizes volatility and another that maximizes estimated risk-adjusted
+
+00:00:46.743 --> 00:00:47.200
+returns.
+
+00:00:49.640 --> 00:00:53.025
+One of the biggest improvements throughout the project was the quality of
+
+00:00:53.025 --> 00:00:53.720
+financial data.
+
+00:00:54.440 --> 00:00:59.218
+I replaced the original dataset with 60 complete monthly total returns from
+
+00:00:59.218 --> 00:01:03.868
+a consistent source rather than combining data from different sources and
+
+00:01:03.868 --> 00:01:04.760
+methodologies.
+
+00:01:06.240 --> 00:01:12.540
+One AI-generated result I personally verified was BND's October 2026 monthly
+
+00:01:12.540 --> 00:01:13.120
+return.
+
+00:01:14.040 --> 00:01:18.560
+PortfoliosLab reported a return of 2.37%.
+
+00:01:19.520 --> 00:01:25.001
+However, calculating the return using Digrin's adjusted historical prices
+
+00:01:25.001 --> 00:01:28.080
+produced a result of approximately 2.74%.
+
+00:01:30.600 --> 00:01:34.680
+I then checked the third source, which also reported 2.37%.
+
+00:01:34.680 --> 00:01:40.055
+I decided to retain the 2.37% figure because two sources supported the same
+
+00:01:40.055 --> 00:01:41.560
+monthly total return.
+
+00:01:41.920 --> 00:01:46.261
+This demonstrated the importance of checking financial data across multiple
+
+00:01:46.261 --> 00:01:49.560
+sources before incorporating it into an investment model.
+
+00:01:51.920 --> 00:01:57.849
+Ultimately, my minimum-volatility portfolio produced an estimated net annual
+
+00:01:57.849 --> 00:02:03.465
+return of 6.28% with 7.35% volatility, while my maximum-Sharpe portfolio
+
+00:02:03.465 --> 00:02:09.160
+produced an estimated net annual return of 12.24% with 14.18% volatility.
+
+00:02:09.560 --> 00:02:13.608
+Although both portfolios meet my investment requirements, these estimates
+
+00:02:13.608 --> 00:02:17.600
+are based on historical performance and do not guarantee future returns.
+
+00:02:17.960 --> 00:02:22.661
+Therefore, my final recommendation is to pilot both strategies through paper
+
+00:02:22.661 --> 00:02:25.320
+trading before committing any real capital.
+
