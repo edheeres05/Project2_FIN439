@@ -1,0 +1,61 @@
+FIN 439 Project 2 — Video 3: Investment Committee Presentation
+Duration: 4:20
+Transcript source: supplied recording captions; corrected apparent recognition errors in names, financial terms, and material numbers against the script and visible project results. Speaker review of uncertain audio/number corrections is required before final submission.
+
+[00:00] For this project, I used ChatGPT to assist with research, coding, financial calculations and validation.
+
+[00:06] The analysis and investment decisions are my own.
+
+[00:08] The project is for educational purposes and is not investment advice.
+
+[00:11] My recommendation to the Investment Committee is to pilot both investment strategies through paper trading with no real capital allocated at this time.
+
+[00:22] My intended investors are college students and young adults with a flexible five-year investment horizon.
+
+[00:27] I established a minimum estimated annual net return of 6%, maximum estimated annual volatility 15%, minimum BIL allocation of 5%, and maximum annual turnover of 25%.
+
+[00:41] These requirements reflect my preference for steady growth while controlling risk.
+
+[00:48] My benchmark is of 50% V, 40% B& D and 10% bil, producing an estimated net annual return of 6.68%.
+
+[00:56] With 9.58% volatility.
+
+[00:59] The minimum-volatility portfolio produces an estimated net return of 6.28%.
+
+[01:06] With 7.35% volatility, the maximum-Sharpe portfolio produces a higher estimated net return of 12.24%, but also has a higher volatility of 14.18%.
+
+[01:18] Both optimized portfolios meet all four numerical investment requirements.
+
+[01:25] The minimum-volatility portfolio consists of 40% VOO, 35% BIL, and 25% BND.
+
+[01:31] The maximum-Sharpe portfolio allocates 50% to VOO, 15% to SOXX, 10% to SCHD, 10% to BIL, and 15% to BND.
+
+[01:43] These strategies provide alternative simulated allocations ranging from 40% to 75% equity exposure.
+
+[01:51] The maximum-Sharpe portfolio offers greater estimated growth potential but operates much closer to my volatility ceiling.
+
+[02:00] To validate the reliability of these strategies, I tested changes in estimated returns, trading costs, historical estimation windows, and investment constraints.
+
+[02:12] These tests demonstrate how changes in financial assumptions can affect portfolio performance and whether the strategies continue to meet my requirements.
+
+[02:23] One major concern is SOXX's estimated annual return of approximately 29.92%, which is based on historical performance and may not continue in the future.
+
+[02:34] In my separate changed-input experiment, reducing this estimate by 10 percentage points lowered the maximum-Sharpe portfolio's estimated net return to 10.03%.
+
+[02:46] demonstrating its sensitivity to individual asset assumptions, the minimum-volatility portfolio experienced a historical maximum month-end drawdown of approximately 13.15%, compared to 22.15% for the maximum-Sharpe portfolio and 17.81% for the benchmark.
+
+[03:10] This demonstrates that meeting a 15% estimated volatility requirement does not guarantee losses will remain below 15%.
+
+[03:18] These historical results are useful diagnostics rather than proof of future performance.
+
+[03:27] I would recommend a 12-month paper-trading pilot monitoring both portfolios against the benchmark on a monthly basis.
+
+[03:36] I would monitor realized returns, volatility, drawdown, trading costs, and turnover.
+
+[03:41] If the portfolio experiences a 15% drawdown, the VOO momentum signal becomes nonpositive, the data becomes outdated, or the model cannot identify a feasible portfolio.
+
+[03:52] I would pause new risk-taking and reassess the strategy.
+
+[03:58] Ultimately, both portfolios demonstrated potential, but historical estimates are not sufficient evidence to justify investing real money.
+
+[04:09] I'm requesting that the investment committee approve a 12-month paper-trading pilot with 0 percent of real capital allocated until further evidence supports adopting either strategy.
