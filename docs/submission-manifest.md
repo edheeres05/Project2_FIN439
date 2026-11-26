@@ -1,6 +1,6 @@
-# Project 2 submission manifest — working record
+# Project 2 submission manifest — submission record
 
-Edition A/B and research-evolution PDF: not required for Project 2. Attach the two matching Markdown reports and three plain-text transcripts to Brightspace. The recordings have been produced and the transcript files are present; YouTube publication and instructional-team access confirmation remain pending.
+Edition A/B and research-evolution PDF: not required for Project 2. Attach the two matching Markdown reports and three plain-text transcripts to Brightspace. The recordings have been produced and the transcript files are present; The student supplied all three YouTube URLs; instructional-team repository access, logged-out playback and published caption availability still require confirmation.
 
 | Evidence | Location / status |
 |---|---|
@@ -14,11 +14,11 @@ Edition A/B and research-evolution PDF: not required for Project 2. Attach the t
 | Locked experiment | [Baseline](https://github.com/edheeres05/Project2_FIN439/commit/4442c05594191d47a292a040d9ef974502b396de), [prediction commit](https://github.com/edheeres05/Project2_FIN439/commit/e6329aea9b34afa81649ae3ba40990d8e068c11f), [ai-off-prediction.md](https://github.com/edheeres05/Project2_FIN439/blob/main/ai-off-prediction.md), [locked-change-result.json](https://github.com/edheeres05/Project2_FIN439/blob/main/locked-change-result.json); see validation for AI assistance and chronology |
 | Student AI-output check | BND source comparison in Section 6 of the validation record |
 | Second-machine run / independent cold run | Student-reported successful second-computer README run by father (November 25), approximately 8–9 minutes, no errors. Latest clarification and evidence limits documented in validation. See [validation record](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/validation-and-ai-use.md). |
-| Video 1: Research evolution and AI-output check | FIN 439 Project 2 — Video 1: Research Evolution and AI Verification; 2:27; YouTube link pending (Unlisted or Public) |
+| Video 1: Research evolution and AI-output check | FIN 439 Project 2 — Video 1: Research Evolution and AI Verification; 2:27; [YouTube video 1](https://youtu.be/mviOSyDdmdU) |
 | Transcript 1 | [Timestamped transcript](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/transcript-video-1.txt) · [Timed captions for upload](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/captions-video-1.vtt) |
-| Video 2: Codebase and validation | FIN 439 Project 2 — Video 2: Technical Walkthrough and Validation; 4:29; YouTube link pending (Unlisted or Public) |
+| Video 2: Codebase and validation | FIN 439 Project 2 — Video 2: Technical Walkthrough and Validation; 4:29; [YouTube video 2](https://youtu.be/N9W_Mb_Lr0U) |
 | Transcript 2 | [Timestamped transcript](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/transcript-video-2.txt) · [Timed captions for upload](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/captions-video-2.vtt) |
-| Video 3: Investment committee (opens with live app) | FIN 439 Project 2 — Video 3: Investment Committee Presentation; 4:20; YouTube link pending (Unlisted or Public) |
+| Video 3: Investment committee (opens with live app) | FIN 439 Project 2 — Video 3: Investment Committee Presentation; 4:20; [YouTube video 3](https://youtu.be/YZ8DLGUxvUw) |
 | Transcript 3 | [Timestamped transcript](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/transcript-video-3.txt) · [Timed captions for upload](https://github.com/edheeres05/Project2_FIN439/blob/main/docs/captions-video-3.vtt) |
 | Research evolution document | Not required (Project 2 ruling) |
 | Optional deployment | Not submitted |
@@ -56,7 +56,8 @@ Timestamps are taken from the supplied recordings' captions, rounded down to the
 - [x] Decision memo and validation record, including original prediction and changed-input output.
 - [x] Three recorded videos within the time limits and three timestamped transcript files.
 - [ ] Speaker review of apparent numerical caption errors against the actual audio; publish corrected captions on each YouTube video.
-- [ ] Add the actual three stable YouTube links; verify playback and captions while logged out.
+- [x] Add the three student-supplied stable YouTube links (listed in video order).
+- [ ] Verify playback, actual published titles/durations and captions while logged out; independent web retrieval was unavailable.
 - [ ] Confirm instructional-team access to the private repository.
 - [ ] Freeze final repository revision and submit this manifest, matching two Markdown reports and three plain-text transcripts in Brightspace.
 
